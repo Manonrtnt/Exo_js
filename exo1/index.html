@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EXO 1</title>
+</head>
+<body>
+    <h2>Créer un utilisateur</h2>
+    <form>
+        <p>Saisir un nom :</p>
+        <input type="text" id="name"/>
+        <p>Saisir un prénom :</p>
+        <input type="text" id="firstName">
+        <p>Saisir un login :</p>
+        <input type="text" id="login">
+        <p>Saisir un mot de passe :</p>
+        <input type="password" id="mdp"/>
+        <input type="button" value="Ajouter" onclick="ajouter()"/>
+    </form>
+    <h3 id="error"></h3>
+    <h2>Liste des comptes utilisateurs créés :</h2>
+    <h3 id="nbrCompte"></h3>
+    <p id="resultat"></p>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
